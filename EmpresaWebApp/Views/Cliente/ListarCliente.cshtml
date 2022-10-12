@@ -1,0 +1,52 @@
+﻿@model List<EmpresaWebApp.Models.ClienteViewModel>
+
+@{
+    ViewData["Title"] = "ListarCliente";
+}
+
+<h1>ListarCliente</h1>
+
+<p>
+    <a asp-action="Cadastro">Novo Cliente</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model[0].ClienteId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].CPF)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model[0].Idade)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClienteId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Idade)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "Edit", new {  id = item.ClienteId  }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ClienteId  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

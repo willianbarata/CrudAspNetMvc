@@ -1,0 +1,12 @@
+C:\dev\EmpresaWebApp\EmpresaData\bin\Debug\net6.0\EmpresaData.deps.json
+C:\dev\EmpresaWebApp\EmpresaData\bin\Debug\net6.0\EmpresaData.dll
+C:\dev\EmpresaWebApp\EmpresaData\bin\Debug\net6.0\EmpresaData.pdb
+C:\dev\EmpresaWebApp\EmpresaData\obj\Debug\net6.0\EmpresaData.csproj.AssemblyReference.cache
+C:\dev\EmpresaWebApp\EmpresaData\obj\Debug\net6.0\EmpresaData.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\EmpresaWebApp\EmpresaData\obj\Debug\net6.0\EmpresaData.AssemblyInfoInputs.cache
+C:\dev\EmpresaWebApp\EmpresaData\obj\Debug\net6.0\EmpresaData.AssemblyInfo.cs
+C:\dev\EmpresaWebApp\EmpresaData\obj\Debug\net6.0\EmpresaData.csproj.CoreCompileInputs.cache
+C:\dev\EmpresaWebApp\EmpresaData\obj\Debug\net6.0\EmpresaData.dll
+C:\dev\EmpresaWebApp\EmpresaData\obj\Debug\net6.0\refint\EmpresaData.dll
+C:\dev\EmpresaWebApp\EmpresaData\obj\Debug\net6.0\EmpresaData.pdb
+C:\dev\EmpresaWebApp\EmpresaData\obj\Debug\net6.0\ref\EmpresaData.dll
